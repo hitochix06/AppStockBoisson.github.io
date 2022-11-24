@@ -1,0 +1,72 @@
+/* body {
+  margin: 50px;
+} */
+
+/* code titre  */
+h2 {
+  color: #fff;
+  margin: 5px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 40px;
+  text-decoration: underline;
+}
+.titre {
+  background-color: #e66432;
+  text-align: center;
+  color: #fff;
+  border-radius: 5px;
+  margin: 5px;
+  box-shadow: 10px 5px 5px rgb(221, 221, 221);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* code pour personaliser card donner aussi couleur  */
+.card-header {
+  background-color: rgb(196, 195, 195);
+}
+.card {
+  box-shadow: 10px 5px 5px rgb(185, 183, 183);
+}
+
+/* code pour personaliser modal  */
+.modal-title {
+  color: #e66432;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.modal-content {
+  box-shadow: 10px 5px 5px rgb(92, 91, 91);
+}
+
+/* code personali icon  */
+.fa-pencil-alt:before,
+.fa-pencil:before {
+  content: "\f303";
+  margin: 10px;
+}
+
+/* code pour enleve la barre  gris */
+.table > :not(caption) > * > * {
+  border-bottom-width: 0px;
+}
+
+.form-select {
+  background-color: rgb(213, 213, 213);
+  font-weight: 500;
+}
+.modifStock {
+  width: 21% !important;
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  border-radius: 0.375rem;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
